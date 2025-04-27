@@ -32,3 +32,5 @@
 
 /MyProject/beerV1/webapps/
 /MyProject/beerV1/work/
+
+*.class
