@@ -1,0 +1,34 @@
+# 톰캣 디렉토리
+/apache-tomcat-11.0.6/
+
+/MyProject/beerV1/classes/          # 컴파일된 .class 파일들이 있는 곳
+/MyProject/beerV1/*.war             # war 파일 생성 시 무시
+/MyProject/beerV1/*.jar             # jar 파일 생성 시 무시
+
+# IDE
+/MyProject/beerV1/.idea/
+/MyProject/beerV1/.project
+/MyProject/beerV1/.classpath
+/MyProject/beerV1/.settings/
+/MyProject/beerV1/*.iml
+
+# MacOS 시스템 파일
+.DS_Store
+
+# 로그 파일
+/MyProject/beerV1/*.log
+
+# 백업파일, vim swap 파일
+*.bak
+*.swp
+*.swo
+*~
+
+# 빌드, 임시 디렉토리
+/MyProject/beerV1/build/
+/MyProject/beerV1/out/
+/MyProject/beerV1/tmp/
+/MyProject/beerV1/temp/
+
+/MyProject/beerV1/webapps/
+/MyProject/beerV1/work/
